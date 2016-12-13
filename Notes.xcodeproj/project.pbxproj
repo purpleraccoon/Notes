@@ -100,6 +100,7 @@
 					5958FC461CEE688D006C2E96 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 55MQE2Y3Y9;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -263,6 +264,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jkemery.Notes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -277,6 +279,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jkemery.Notes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -299,6 +302,7 @@
 				5958FC5D1CEE688D006C2E96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

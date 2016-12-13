@@ -39,12 +39,12 @@ class DetailViewController: UIViewController {
         self.configureView()
     }
     
-    override func viewWillTransitionToSize(size: CGSize, withTransitionCoordinator coordinator: UIViewControllerTransitionCoordinator) {
-        super.viewWillTransitionToSize(size, withTransitionCoordinator: coordinator)
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        super.viewWillTransition(to: size, with: coordinator)
         
         
         weak var ws = self
-        coordinator.animateAlongsideTransitionInView(scrollView, animation: { (cc) in
+        coordinator.animateAlongsideTransition(in: scrollView, animation: { (cc) in
             
         }) { (c) in
             ws?.contentSize = CGSize(width: (ws?.scrollView.bounds.size.width)!, height: 1000.0)
@@ -66,7 +66,7 @@ class DetailViewController: UIViewController {
     
     func addText() {
         
-        contentView.addSubview(<#T##view: UIView##UIView#>)
+        //contentView.addSubview(<#T##view: UIView##UIView#>)
     }
 }
 
